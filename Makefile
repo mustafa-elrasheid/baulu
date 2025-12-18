@@ -1,7 +1,7 @@
 compile:
-	rustc src/main.rs -o bin/baulu
+	cargo build
 test:
-	./bin/baulu examples/hello.bul -log
+	cargo run
 compile-test:
 	make compile
 	make test
