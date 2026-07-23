@@ -2,18 +2,18 @@
 function fibonacci(let int n) => int:
 	if n < 2:
 		return n;
-	
-  return (fibonacci(n-1)) + (fibonacci(n-2));
+
+	return (fibonacci(n-1)) + (fibonacci(n-2));
 
 function sum_primes(let int n):
 	let int total = 0;
 	let int i = 0;
-	
-  while i < n:
+
+	while i < n:
 		let int is_prime = 1;
 		let int ii = 2;
-		
-    while ii < i:
+
+	while ii < i:
 			if i % ii == 0:
 				is_prime = 0;
 			ii = ii + 1;
@@ -24,5 +24,5 @@ function sum_primes(let int n):
 
 function main() => int:
 	let int result = fibonacci(8);
-	
-  return result;
+
+	return result;
