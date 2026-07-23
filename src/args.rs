@@ -5,7 +5,7 @@ use clap::{Parser, Subcommand};
 #[command(version = "0.1.0")]
 #[command(author = "mustafaelrasheid")]
 #[command(
-	about = "future compiler",
+	about = "A compiler for the programming language Baulu.",
 	long_about = None
 )]
 pub struct Cli {
