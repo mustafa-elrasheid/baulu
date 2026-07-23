@@ -5,12 +5,12 @@ use clap::{Parser, Subcommand};
 #[command(version = "0.1.0")]
 #[command(author = "mustafaelrasheid")]
 #[command(
-    about = "future compiler",
-    long_about = None
+	about = "future compiler",
+	long_about = None
 )]
 pub struct Cli {
-    #[command(subcommand)]
-    pub command: Commands,
+	#[command(subcommand)]
+	pub command: Commands,
 }
 
 #[derive(Subcommand)]
