@@ -1,11 +1,9 @@
 # Baulu
-
-## Introduction
-This is a compiler for a programming language called Baulu, that tries to
-achieve Python like syntax, with C like type safety, while trying to be memory
-safe without significant performance overhaults. It's a compiled language of
-course, that's why it has a compiler in the biggening.
-I'm new to making a programming langauges.
+A compiler for the programming language Baulu.
+Baulu tries to achieve Python like syntax, with C like type safety, while
+trying to be memory safe without significant performance overhaults.
+It's a compiled language of course, that's why it has a compiler in the
+biggening.
 
 ## The syntax
 ### Function declaration
@@ -13,10 +11,10 @@ the function declaration grammer uses the keyword `function` followed by an
 identifier, followed by paramters defined with `let TYPE IDENTIFIER` seperated
 by comas and all inside round brackets, followed by the return type if needed,
 then two colums. an example would be:
- - `function foo(let int x) => int:`
- - `function main() => int:`
- - `function is_prime(let int n) => bool`,
- - `function sleep(let int seconds):`
+- `function foo(let int x) => int:`
+- `function main() => int:`
+- `function is_prime(let int n) => bool`,
+- `function sleep(let int seconds):`
 
 ### Blocks and Nesting
 this language uses the offside rule using tabs , you can also optionally use
@@ -28,12 +26,12 @@ return 0;
 ```
 if x: {return 0;}
 ```
-**note:** only use tabs for nesting
+**note:** only use tabs for nesting.
 
 ### conntrol flow
-**return statements** `return expr;` 
-**while statements** `while expr:` 
-**if statements** `if expr:`
+- return statements: `return expr;`.
+- while statements: `while expr:`.
+- if statements: `if expr:`.
 
 ### Arithmetic Operations
 These can be done in a statement that consist of an expression and a
@@ -43,12 +41,12 @@ and [`+`,`-`,`/`,`*`,`%`] for Arithmetic.
 ### Variable Declation
 you need to use the `let` keyword followed by a type followed by an
 identifier, there is only `int` for now.
-all veriables need to be assigned
+all veriables need to be assigned.
 
 ## Future Additions
-This project will doesn't gurantees backwards support compatabiliy for
-anything done with previous version of it. If you would like to add new stuff
-you can do a pull request or add and issue, and I would try to hopefully read all of them
+This project will not gurantee backwards support compatabiliy for
+anything done with previous version of it. If you would like to add new stuff.
+you can do a pull request or add and issue, and I would try to hopefully read all of them.
 
 ## WARNING:
 this repositry is for now an attempt to recreate bauluc (if you have see it) in rust,
